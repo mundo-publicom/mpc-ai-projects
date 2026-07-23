@@ -1,0 +1,18 @@
+{
+  "name": "make-money-with-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "14 production-oriented AI products — full PRDs, specs, and working Next.js scaffolds.",
+  "author": "blockchanger",
+  "license": "MIT",
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "lint:docs": "echo 'Each project ships PRD.md, TECHNICAL_SPEC.md, ARCHITECTURE.md under docs/'",
+    "list": "ls -1 projects"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
